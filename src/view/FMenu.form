@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="view.FMenu">
+  <grid id="27dc6" binding="panelMenu" layout-manager="GridLayoutManager" row-count="4" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="20" left="20" bottom="20" right="20"/>
+    <constraints>
+      <xy x="20" y="20" width="484" height="412"/>
+    </constraints>
+    <properties>
+      <background color="-21745"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="3ce0a" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Consolas" size="36"/>
+          <foreground color="-1"/>
+          <text value="Gestão de Funcionarios"/>
+        </properties>
+      </component>
+      <component id="d2c2" class="javax.swing.JButton" binding="adicionarEmpregadoButton" default-binding="true">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-12237499"/>
+          <font name="Consolas" size="16"/>
+          <foreground color="-1"/>
+          <hideActionText value="false"/>
+          <text value="Adicionar Empregado"/>
+        </properties>
+      </component>
+      <component id="66c47" class="javax.swing.JButton" binding="consultarEmpregadosButton" default-binding="true">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-12237499"/>
+          <font name="Consolas" size="16"/>
+          <foreground color="-1"/>
+          <hideActionText value="false"/>
+          <text value="Consultar Empregados"/>
+        </properties>
+      </component>
+      <component id="7f4ea" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="250" height="250"/>
+            <maximum-size width="250" height="250"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
